@@ -1,0 +1,50 @@
+site_name: Innes Rail
+site_description: >-
+  Innes Rail - automating a model railway
+site_url: https://innesrail.github.io/innesRail/
+site_author: Cloud-Native Toolkit development team
+repo_name: "innesRail"
+repo_url: https://github.com/innesrail/innesRail
+docs_dir: docs
+site_dir: public
+edit_uri: edit/master/docs
+theme:
+    name: material
+    logo: images/cloudnativetoolkit.png
+    favicon: images/cloudnativetoolkit.png
+    palette:
+      scheme: default
+      primary: blue
+    font:
+      text: Pangolin
+      code: Source Code Pro
+    language: en
+    custom_dir: overrides
+    features:
+      - navigation.instant
+      - navigation.tracking
+use_directory_urls: true
+plugins:
+  - search:
+      lang: en
+  - minify:
+      minify_html: true
+markdown_extensions:
+  - attr_list
+  - admonition
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.tabbed
+  - pymdownx.details
+extra_css:
+    - css/extra.css
+    - css/toolkit-code.css
+extra:
+  generator: false
+copyright: Copyright © 2021 innesRail
+nav:
+  - Home: index.md
+
