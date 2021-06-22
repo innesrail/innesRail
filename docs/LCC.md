@@ -19,7 +19,7 @@ It is unclear what the future will be as there a some very well established and 
 
 ## NMRA LCC Standard
 
-The NMRA Layout Command Control standards are based on the [OpenLCB](www.openlcb.org) project.
+The NMRA Layout Command Control standards are based on the [OpenLCB](https://www.openlcb.org) project.
 
 LCC provides a bus for *nodes* to communicate.  This allows communication between multiple components controlling a layout.  LCC complements DCC, it does not replace it, but an implementation may choose to move some component control, such as signals and points, from DCC to LCC.
 

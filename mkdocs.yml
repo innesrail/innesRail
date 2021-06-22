@@ -47,4 +47,13 @@ extra:
 copyright: Copyright © 2021 innesRail
 nav:
   - Home: home.md
+  - Standards:
+    - Standards bodies : Standards-Bodies-and-Groups.md
+    - DCC : DCC.md
+    - LCC : LCC.md
+  - technologies:
+    - Automated Breaking : ABC.md
+    - Block Detection : blockDetection.md
+  - UK Suppliers : UKSuppliers.md
+  - Useful sites : usefulSites.md
 
