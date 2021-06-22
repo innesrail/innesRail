@@ -46,5 +46,5 @@ extra:
   generator: false
 copyright: Copyright © 2021 innesRail
 nav:
-  - Home: index.md
+  - Home: home.md
 
